@@ -1,0 +1,2 @@
+# algoexpert-questions
+**Description:** This is a collection of all [AlgoExpert Coding Interview](https://www.algoexpert.io/questions) questions that are currently available on the platform. There are solutions for each problem statement including time and space complexity. Since AlgoExpert is a paid platform, everyone doesn't have access to it or can't afford to. I hope this helps everyone to access the content and improve their problem solving skills.
