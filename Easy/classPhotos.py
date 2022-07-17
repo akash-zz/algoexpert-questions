@@ -1,7 +1,3 @@
-from audioop import reverse
-from tkinter.tix import Tree
-
-
 # Time O(n(log(n))) | Space O(1)
 def classPhotos(redShirtHeights, blueShirtHeights):
   redShirtHeights.sort(reverse = True)
