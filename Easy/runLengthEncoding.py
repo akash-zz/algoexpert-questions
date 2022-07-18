@@ -1,6 +1,3 @@
-from operator import le
-
-
 # O(n) Time | O(n) Space
 def runLengthEncoding(string):
   outputString = []
