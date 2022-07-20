@@ -1,6 +1,3 @@
-from numpy import product
-
-
 # O(n^2) Time | O(n) Space
 def arrayOfProducts(array):
   productArray = [1 for _ in range(len(array))]
