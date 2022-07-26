@@ -26,8 +26,8 @@ def binarySearchHelper(array, key, left, right):
     if key == potentialMatch:
       return middle
     elif key > potentialMatch:
-      middle += 1
+      left = middle + 1
     else:
-      middle -= 1
+      right = middle - 1
   return -1
   
