@@ -19,6 +19,7 @@ class LinkedList:
       newValue = sumOfValues % 10
       newNode = LinkedList(newValue)
       currentNode.next = newNode
+      currentNode = newNode
 
       carry = sumOfValues // 2
       nodeOne = nodeOne.next if nodeOne is not None else None
