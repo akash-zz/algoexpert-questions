@@ -30,14 +30,10 @@ def reverseWordInString(string):
   reverseListWords(characters, 0, len(characters) - 1)
 
   startOfWord = 0
-  while True:
+  while startOfWord < len(characters):
     endOfWord = startOfWord
     while endOfWord < characters and characters[endOfWord] != " ":
       endOfWord += 1
-
-    if endOfWord == len(characters):
-      reverseListWords(characters, startOfWord, len(characters) - 1)
-      break
 
     reverseListWords(characters, startOfWord, endOfWord - 1)
     startOfWord = endOfWord + 1
