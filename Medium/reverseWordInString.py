@@ -32,7 +32,7 @@ def reverseWordInString(string):
   startOfWord = 0
   while True:
     endOfWord = startOfWord
-    while endOfWord < startOfWord and characters[endOfWord] != " ":
+    while endOfWord < characters and characters[endOfWord] != " ":
       endOfWord += 1
 
     if endOfWord == len(characters):
